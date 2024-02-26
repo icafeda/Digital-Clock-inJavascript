@@ -5,8 +5,9 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: top;
+  align-items: center;
   font-family: sans-serif;
   background-color: rgb(226, 223, 223);
 }
@@ -30,4 +31,14 @@ body {
   width: 100%;
   height: 90px;
   background-color: rgb(255, 255, 255);
+}
+.content-wrapper {
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
